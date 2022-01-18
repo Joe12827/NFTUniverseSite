@@ -1,5 +1,6 @@
-.TopBar {
+.BottomBar {
     background-color: #77d6e7;
+    position:absolute;
     left:0;
     bottom:0;
     right:0;
