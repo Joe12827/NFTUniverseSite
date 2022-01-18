@@ -13,8 +13,9 @@ api = Api(app) #api router
 api.add_resource(ExampleApi,'/example_api')
 
 if __name__ == '__main__':
-    print("Loading db");
-    print("Starting flask");
+    print("Loading db")
+    exec_sql_file('courses_schema.sql')
+    print("Starting flask")
     app.run(debug=True), #starts Flask
 
 
